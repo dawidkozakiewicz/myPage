@@ -1,14 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    <h1>HELLO</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore delectus tempore rem fuga? Perferendis maxime libero rerum? Saepe, amet, obcaecati, nulla tenetur accusamus totam repudiandae vel facilis odit rerum praesentium?</p>
-</body>
+    <body class="page">
+        <header class="banner page__header">
+            <img src="" alt="" class="banner__image">
+            <h1 class="banner__title banner__title--large">Slogan Duży</h1>
+            <h2 class="banner__title banner__title--medium">Slogan Mały</h2>
+            <button class="button banner__btn button--large">Wejdź</button>
+        </header>
+        <nav class="menu page__nav">
+            <div class="logo menu__logo">
+                <img src="https://lh3.googleusercontent.com/proxy/IumxutE9Y3STz4jmmShye1kfExNB1YXUSHcwXZHE3YaUafG4zdEuR_KBzuSn3JH9PG4WX3o9iSgH58aSjTCFDSYPcmqXb1Qg8fs4O9Dr2LTsu-NUw3bAMg"
+                    alt="" class="logo__image">
+                <span class="logo__name">Nazwa Firmy</span>
+            </div>
+            <ul class="menu__list">
+                <li class="menu_item menu__item--is-open"><a href="" class="menu__link">link</a></li>
+                <li class="menu_item menu__item--is-open"><a href="" class="menu__link">link</a></li>
+                <li class="menu_item menu__item--is-open"><a href="" class="menu__link">link</a></li>
+                <li class="menu_item menu__item--is-open"><a href="" class="menu__link">link</a></li>
+            </ul>
+        </nav>
+        <section class="articles page__articles">
+            <form class="search" action="/">
+                <input class="search__input" type="text">
+                <button class="button search__btn button--italic" type="submit">Szukaj</button>
+            </form>
+            <article class="article">
+                <h1 class="article__title">Tytuł Artykułu</h1>
+                <div class="article_info">
+                    <span class="article_publication-date">2020-02-02</span>
+                    <span class="article_author">Gall Anonim</span>
+                    <h2 class="article__subtitle">Śródtytuł</h2>
+                    <p class="article__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non delectus nihil,
+                        aperiam minima accusamus quos neque voluptate nostrum deserunt magnam quasi sequi, omnis ducimus ex,
+                        modi dicta? Provident, a sit.</p>
+                    <button class="button article__btn">Czytaj więcej</button>
+                </div>
+            </article>
+            <article class="article">
+                <h1 class="article__title">Tytuł Artykułu</h1>
+                <div class="article_info">
+                    <span class="article_publication-date">2020-02-02</span>
+                    <span class="article_author">Gall Anonim</span>
+                    <h2 class="article__subtitle">Śródtytuł</h2>
+                    <p class="article__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non delectus nihil,
+                        aperiam minima accusamus quos neque voluptate nostrum deserunt magnam quasi sequi, omnis ducimus ex,
+                        modi dicta? Provident, a sit.</p>
+                    <button class="button article__btn">Czytaj więcej</button>
+                </div>
+            </article>
+            <article class="article">
+                <h1 class="article__title">Tytuł Artykułu</h1>
+                <div class="article_info">
+                    <span class="article_publication-date">2020-02-02</span>
+                    <span class="article_author">Gall Anonim</span>
+                    <h2 class="article__subtitle">Śródtytuł</h2>
+                    <p class="article__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non delectus nihil,
+                        aperiam minima accusamus quos neque voluptate nostrum deserunt magnam quasi sequi, omnis ducimus ex,
+                        modi dicta? Provident, a sit.</p>
+                    <button class="button article__btn">Czytaj więcej</button>
+                </div>
+            </article>
+        </section>
+        <footer class="footer page__footer">
+            <p class="footer__copyright">zastrzeżone</p>
+            <address class="footer__address">xyz@xy.pl</address>
+        </footer>
+    </body>
 </html>
