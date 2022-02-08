@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/style.scss ./css/style.css"
+    "sass": "sass --watch ./sass/style.scss ./css/style.css",
+    "sass2": "sass --watch ./charity-theme/scss/main.scss ./charity-theme/css/main.css"
+
   },
   "keywords": [],
   "author": "",
