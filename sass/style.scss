@@ -11,11 +11,10 @@
         color: #4F98CA
   }
 
-  .container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    height: 100vh;
-    border: solid 1px black;
-    background-color: #FBF8F1;
+  ul li {
+      display: inline-block;
+      a {
+        text-decoration: none;
+      }
   }
+

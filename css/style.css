@@ -3,19 +3,21 @@
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  height: 100vh;
-  background-color: #EFFFFB;
+  border: solid 1px #77ce14;
+  background-color: #FBF8F1;
 }
-.header h1 {
-  font-size: 150px;
-  color: #4F98CA;
+.header__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  border: solid 1px red;
 }
-
-.navigation {
-  width: 100%;
-  background-color: #EFFFFB;
-  height: 70px;
-  position: relative;
+.header__nav {
+  border: 1px solid green;
+}
+.header nav {
+  padding: 10px;
 }
 
 .footer {
@@ -33,13 +35,11 @@
   color: #4F98CA;
 }
 
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  height: 100vh;
-  border: solid 1px black;
-  background-color: #FBF8F1;
+ul li {
+  display: inline-block;
+}
+ul li a {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
