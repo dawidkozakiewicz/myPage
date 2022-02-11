@@ -3,29 +3,21 @@
 // #4F98CA
 // #272727 - najciemniejszy
 
-
 .header {
-    width: 100%;
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  border: solid 1px #77ce14;
-  background-color: #FBF8F1;
-    
-&__top {
+  
+
+  &__top {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 80px;
-    border: solid 1px red;
+    background-color: blueviolet;
+  }
+&__banner {
+    text-align: center;
+    background-color: #f1be45;
 }
-
-&__nav {
-    border: 1px solid green;
 }
-
-nav {
-    padding: 10px;
-}
-
-}
-

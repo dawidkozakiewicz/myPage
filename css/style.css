@@ -3,21 +3,17 @@
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  border: solid 1px #77ce14;
-  background-color: #FBF8F1;
 }
 .header__top {
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 80px;
-  border: solid 1px red;
+  background-color: blueviolet;
 }
-.header__nav {
-  border: 1px solid green;
-}
-.header nav {
-  padding: 10px;
+.header__banner {
+  text-align: center;
+  background-color: #f1be45;
 }
 
 .footer {
@@ -30,9 +26,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #EFFFFB;
   font-family: "Raleway", sans-serif;
-  color: #4F98CA;
 }
 
 ul li {
@@ -40,6 +34,10 @@ ul li {
 }
 ul li a {
   text-decoration: none;
+  font-size: 16px;
+  padding-left: 10px;
+  text-transform: uppercase;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
