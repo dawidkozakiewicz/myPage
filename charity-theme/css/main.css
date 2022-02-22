@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
 .full-container {
   background: #f1f2f5;
 }
@@ -30,7 +31,7 @@
   margin: 0 auto;
 }
 .header__logo {
-  margin-top: 30px;
+  margin-top: 7px;
   display: inline-block;
 }
 .header__logo img {
@@ -56,12 +57,13 @@
   padding: 8px 25px;
 }
 .header__banner {
-  background-image: url("../images/Vector.png");
+  background-image: url("../images/Blob-Background.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: contain;
   color: black;
   text-align: center;
-  background-position: center;
+  border: 1px solid black;
 }
 .header__title {
   font-size: 55px;
@@ -344,7 +346,9 @@ html {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 a {
