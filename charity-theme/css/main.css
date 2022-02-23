@@ -57,13 +57,12 @@
   padding: 8px 25px;
 }
 .header__banner {
-  background-image: url("../images/Blob-Background.png");
+  background-image: url("../images/sea.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: contain;
+  background-size: 100%;
   color: black;
   text-align: center;
-  border: 1px solid black;
 }
 .header__title {
   font-size: 55px;

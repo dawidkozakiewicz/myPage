@@ -58,14 +58,13 @@
     }
   }
   &__banner {
-    background-image: url("../images/Blob-Background.png");
+    background-image: url("../images/sea.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: contain;
+    background-size: 100%;
     color: black;
     text-align: center;
     // background-position: 50% 50%;
-    border: 1px solid black;
   }
   &__title {
     font-size: 55px;
