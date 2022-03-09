@@ -79,6 +79,7 @@
   max-width: 100%;
 }
 .header__title img {
+  width: 66vw;
   max-width: 100%;
 }
 
@@ -124,13 +125,15 @@
   					Collaboration
  ============================================== */
 .collaborate {
-  max-width: 1110px;
+  max-width: 100%;
   margin: 0 auto;
+  border: 1px solid black;
 }
 .collaborate__block {
   text-align: center;
   margin-top: 35px;
   margin-bottom: 45px;
+  border: 1px solid black;
 }
 .collaborate__logo {
   width: 130px;

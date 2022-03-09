@@ -88,6 +88,7 @@
     // padding-bottom: 20px;
     max-width: 100%;
     img {
+      width: 66vw;
       max-width: 100%;
     }
   }
@@ -155,12 +156,14 @@
  ============================================== */
 
 .collaborate {
-  max-width: 1110px;
+  max-width: 100%;
   margin: 0 auto;
+  border: 1px solid black;
   &__block {
     text-align: center;
     margin-top: 35px;
     margin-bottom: 45px;
+    border: 1px solid black;
   }
   &__logo {
     width: 130px;
