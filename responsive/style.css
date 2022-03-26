@@ -12,7 +12,7 @@ body {
   border: 1px solid black;
 }
 
-.section_row {
+.container_row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
