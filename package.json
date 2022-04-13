@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch ./sass/style.scss ./css/style.css",
-    "sass2": "sass --watch ./charity-theme/scss/main.scss ./charity-theme/css/main.css"
+    "sass2": "sass --watch ./charity-theme/scss/main.scss ./charity-theme/css/main.css",
+    "sass3": "sass --watch ./responsive/scss/main.scss ./responsive/css/main.css"
 
   },
   "keywords": [],
