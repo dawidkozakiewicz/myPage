@@ -498,4 +498,11 @@
   box-sizing: border-box;
 }
 
+.container__row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 /*# sourceMappingURL=main.css.map */
